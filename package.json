@@ -1,0 +1,37 @@
+{
+  "name": "oppybackend",
+  "version": "1.0.0",
+  "description": "Ultimate solution for AI data processing in cloud.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon",
+    "build": "npx tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrai/OppyBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrai/OppyBackend/issues"
+  },
+  "homepage": "https://github.com/qrai/OppyBackend#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.29.1",
+    "@trpc/server": "^10.29.1",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.91",
+    "mysql2": "^3.2.0",
+    "openai": "^3.2.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.12",
+    "zod": "^3.21.4"
+  }
+}

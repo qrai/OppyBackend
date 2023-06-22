@@ -1,0 +1,47 @@
+{
+	"compilerOptions": {
+	  /* Projects */
+	  "incremental": true,
+  
+	  /* Language and Environment */
+	  "target": "es2016",
+	  "lib": ["ES6"],
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "strictPropertyInitialization": false,
+	  "resolveJsonModule": true,
+	  "removeComments": true,
+  
+	  /* Modules */
+	  "module": "commonjs",
+	  "moduleResolution": "node",
+	  "sourceMap": true,
+  
+	  /* JavaScript Support */
+	  "allowJs": false,
+  
+	  /* Emit */
+	  "outDir": "./dist",
+	  "baseUrl": ".",
+	  "paths": {
+			"*": [
+				"node_modules/*"
+			]
+	  },
+  
+	  /* Interop Constraints */
+	  "esModuleInterop": true,
+	  "forceConsistentCasingInFileNames": true,
+  
+	  /* Type Checking */
+	  "strict": true,
+	  "noImplicitAny": true,
+  
+	  /* Completeness */
+	  "skipLibCheck": true
+	},
+	"include": [
+        "src/**/*",
+	],
+	"exclude": ["node_modules", "dist"]
+}
